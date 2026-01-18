@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Werkbladen Koplampen – 6BSO</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background: #f5f5f5;
+    }
+    h1, h2 {
+        color: #003366;
+    }
+    section {
+        background: #ffffff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 6px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    textarea {
+        height: 80px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    table, th, td {
+        border: 1px solid #aaa;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+    .print {
+        background: #003366;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Werkbladen Koplampen – 6BSO</h1>
+
+<label>Naam leerling:</label>
+<input type="text">
+
+<label>Klas:</label>
+<input type="text">
+
+<label>Datum:</label>
+<input type="text">
+
+<!-- Werkblad 1 -->
+<section>
+<h2>Werkblad 1 – Basiskennis</h2>
+
+<p><strong>1. Wat is het hoofddoel van dimlicht?</strong></p>
+<input type="radio" name="q1"> Verder zien<br>
+<input type="radio" name="q1"> Andere bestuurders niet verblinden<br>
+<input type="radio" name="q1"> Alleen zichtbaar zijn<br>
+
+<p><strong>2. Wat gebeurt er als koplampen te hoog staan afgesteld?</strong></p>
+<textarea></textarea>
+
+<p><strong>3. Verbind correct (schrijf het juiste antwoord):</strong></p>
+<textarea placeholder="Dimlicht = ...&#10;Grootlicht = ...&#10;Mistlicht = ..."></textarea>
+</section>
+
+<!-- Werkblad 2 -->
+<section>
+<h2>Werkblad 2 – Inzicht & Berekening</h2>
+
+<p><strong>1. Dimlicht staat op 1% naar beneden. Hoeveel cm op 10 m?</strong></p>
+<input type="text" placeholder="Antwoord in cm">
+
+<p><strong>2. Leg in eigen woorden uit waarom dimlicht naar beneden schijnt.</strong></p>
+<textarea></textarea>
+
+<p><strong>3. Kruis aan wat juist is:</strong></p>
+<input type="checkbox"> Dimlicht mag recht vooruit schijnen<br>
+<input type="checkbox"> Dimlicht schijnt licht naar beneden<br>
+<input type="checkbox"> Grootlicht heeft geen afkapping<br>
+</section>
+
+<!-- Werkblad 3 -->
+<section>
+<h2>Werkblad 3 – Voertuig voorbereiden</h2>
+
+<label>Voertuig:</label>
+<input type="text">
+
+<label>Kenteken:</label>
+<input type="text">
+
+<table>
+<tr>
+<th>Controlepunt</th>
+<th>OK</th>
+<th>Niet OK</th>
+</tr>
+<tr>
+<td>Bandenspanning</td>
+<td><input type="checkbox"></td>
+<td><input type="checkbox"></td>
+</tr>
+<tr>
+<td>Wielen recht</td>
+<td><input type="checkbox"></td>
+<td><input type="checkbox"></td>
+</tr>
+<tr>
+<td>Auto leeg</td>
+<td><input type="checkbox"></td>
+<td><input type="checkbox"></td>
+</tr>
+<tr>
+<td>Koplampen proper</td>
+<td><input type="checkbox"></td>
+<td><input type="checkbox"></td>
+</tr>
+<tr>
+<td>Vlakke ondergrond</td>
+<td><input type="checkbox"></td>
+<td><input type="checkbox"></td>
+</tr>
+</table>
+
+<p><strong>Waarom is deze voorbereiding belangrijk?</strong></p>
+<textarea></textarea>
+</section>
+
+<!-- Werkblad 4 -->
+<section>
+<h2>Werkblad 4 – Praktijkmeting</h2>
+
+<h3>Dimlicht links</h3>
+<label>Gemeten hoogte (cm):</label>
+<input type="text">
+
+<label>Afstelling correct?</label><br>
+<input type="radio" name="links"> Ja
+<input type="radio" name="links"> Nee
+
+<h3>Dimlicht rechts</h3>
+<label>Gemeten hoogte (cm):</label>
+<input type="text">
+
+<label>Afstelling correct?</label><br>
+<input type="radio" name="rechts"> Ja
+<input type="radio" name="rechts"> Nee
+
+<p><strong>Wat veranderde er bij het afstellen?</strong></p>
+<textarea></textarea>
+</section>
+
+<!-- Werkblad 5 -->
+<section>
+<h2>Werkblad 5 – Reflectie</h2>
+
+<p><strong>1. Wat vond je moeilijk?</strong></p>
+<textarea></textarea>
+
+<p><strong>2. Waarom is correcte koplampafstelling belangrijk?</strong></p>
+<textarea></textarea>
+
+<p><strong>3. Kan je dit zelfstandig uitvoeren in een garage?</strong></p>
+<input type="radio" name="garage"> Ja
+<input type="radio" name="garage"> Met hulp
+<input type="radio" name="garage"> Nog niet
+</section>
+
+<button class="print" onclick="window.print()">Afdrukken / Opslaan als PDF</button>
+
+</body>
+</html>
